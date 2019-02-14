@@ -10,8 +10,11 @@ Project structure
 Folder -
 
 ./app - Node lambda function
+
 ./infra/modules/apigateway-deployer/ - Terraform module to deploy an AWS APIGateway using the apps swagger file 
+
 ./infra/modules/lambda-node-application/ -  Terraform module to deploy the node application as an AWS Lambda function
+
 ./infra/testing/ - Terraform script to provision test environment
 
 Instructions
